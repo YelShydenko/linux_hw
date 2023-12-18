@@ -3,6 +3,6 @@
    2 echo "Start" >> /home/user/start/1.txt 
    3 date +'%D' >> /home/user/start/1.txt 
    4 cp /home/user/start/1.txt /opt/task/start.txt 
-   5 ls -la | tail -4 >> /opt/task/start.txt 
+   5 ls -la / | tail -4 >> /opt/task/start.txt 
    6 cat /opt/task/start.txt 
    7 history >> file.txt
