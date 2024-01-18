@@ -1,0 +1,7 @@
+   0 mkdir -p /root/test3/newfolder
+   1 df -h > /root/test3/newfolder/myfile.txt
+   2 ls -al / | head -9 >> /root/test3/newfolder/myfile.txt 
+   3 wc --help
+   4 tail -3 /etc/group | wc -m >> /root/test3/newfolder/myfile.txt 
+   5 vi /root/test3/newfolder/myfile.txt 
+   6 history > linux_hw4.txt
